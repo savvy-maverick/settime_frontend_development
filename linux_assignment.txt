@@ -1,0 +1,21 @@
+1 git add
+2 git commit -m
+3 git push
+4 git pull
+5 git stash
+6 cd
+7 ls
+8 mkdir name of folder
+9 touch name of file
+10 cp "name of file you want to copy"
+11 cp -r name of directory
+12 mv "name of file you want to move" "name of file you're moving to"
+13 mv -r "name of folder you want to move" "name of folder youre moving to"
+14 rm name of file
+15 rm -r name of directory
+16 find "the name of file or directory"
+17 cat "name of file"
+18 chmod + or - to add or remove permission
+19 pwd
+20 timedatectl
+
