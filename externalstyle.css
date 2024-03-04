@@ -1,0 +1,23 @@
+h1{
+    color:aqua;
+    background-color: blue;
+}
+p{
+    color:blueviolet;
+    background-color: chartreuse;
+}
+h3{
+    color: brown;
+    background-color: coral;
+}
+.head1{
+        color:rebeccapurple;
+        background-color: cyan;
+}
+#head3{
+    color: darkmagenta;
+    background-color: darkslategray;
+}
+h1:nth-of-type(){
+    color: red;
+}
