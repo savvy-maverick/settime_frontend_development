@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css box model</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        .box{
+            height: 400px;
+            width: 50%;
+            background-color: purple;
+        }
+        h2{
+             border: 2px solid white;
+             display:inline-block;
+             padding: 20px 20px;
+             margin: 0 0 0 80px;
+        }
+        a{
+            display: block;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Css box model class</h2>
+        <a href="#">read more</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aperiam, </p>
+        <button>Learn more</button>
+    </div>
+    
+</body>
+</html>
