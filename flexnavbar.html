@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX BOX NAV BAR</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .flexbox{
+            width: 100%;
+            height: 50px;
+            background-color: blueviolet;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+
+
+        }
+        .logo{
+            font-size: 20px;
+            color: white;
+            margin: 0 0 0 -20px;
+        }
+        .button{
+            margin: 0px;
+            
+        }
+        button{
+            padding: 10px 25px;
+            font-size: 15px;
+            border-radius: 5px;
+            color: blueviolet;
+            border:2px solid transparent ;
+        }
+        
+        button:hover{
+            background-color: blueviolet ;
+            color: white;
+            border-color: white;
+        }
+
+        ol{
+            list-style: none;
+            color: white;
+        }
+        li{
+            display: inline;
+            margin: 0 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flexbox">
+        <div class="logo">
+            <h3>Logo</h3>
+        </div>
+        
+         <ol>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+         </ol>
+        
+        <div class="button">
+            <button>Login</button>
+        </div>
+    </div>
+</body>
+</html>

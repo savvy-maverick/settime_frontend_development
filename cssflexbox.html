@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FLEX BOX</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .flexcontainer{
+            width: 100%;
+            height: auto;
+            background-color: purple;
+            padding: 40px;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            
+        }
+        .flexitem{
+            height: 300px;
+            width: 300px;
+        }
+        .flexitem1{
+            background-color: blue;
+        }
+        .flexitem2{
+            background-color: aqua;
+        }
+        .flexitem3{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class=flexcontainer>
+        <div class="flexitem1 flexitem"></div>
+        <div class="flexitem2 flexitem" ></div>
+        <div class="flexitem3 flexitem"></div>
+    </div>
+    
+</body>
+</html>
